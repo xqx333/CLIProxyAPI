@@ -77,7 +77,7 @@ request-retry: 3
 
 # Maximum number of different credentials to try for one failed request.
 # Set to 0 to keep legacy behavior (try all available credentials).
-max-retry-credentials: 0
+max-retry-credentials: 3
 
 # Maximum wait time in seconds for a cooled-down credential before triggering a retry.
 max-retry-interval: 30
